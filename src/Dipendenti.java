@@ -31,6 +31,11 @@ public abstract class Dipendenti {
         this.dipartimento = dipartimento;
     }
 
+    //metodi
+    public abstract double calculateSalary();
+
+    public abstract String stampaMatricola();
+
     // Enum Dipartimento
     public enum Dipartimento {
         PRODUZIONE("Produzione"),
@@ -47,6 +52,4 @@ public abstract class Dipendenti {
             return descrizione;
         }
     }
-    //metodi
-    public abstract void Calc
 }
