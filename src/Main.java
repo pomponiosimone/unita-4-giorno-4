@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        DipendenteFullTime dipendenteFullTime1 = new DipendenteFullTime("1", 50000, Dipendenti.Dipartimento.PRODUZIONE, 3000);
+        DipendenteFullTime dipendenteFullTime1 = new DipendenteFullTime("1", 50000, Dipendenti.Dipartimento.PRODUZIONE, 2000);
 
         DipendentePartTime dipendentePartTime1 = new DipendentePartTime("2", 10000, Dipendenti.Dipartimento.AMMINISTRAZIONE, 20, 15.00);
         ;
