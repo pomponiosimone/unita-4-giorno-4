@@ -1,4 +1,4 @@
-public abstract class Dipendenti {
+public abstract class Dipendenti implements Interface {
     // Attributi
     private String matricola;
     private double stipendio;

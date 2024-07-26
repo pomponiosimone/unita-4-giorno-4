@@ -3,9 +3,9 @@ public class Main {
 
         DipendenteFullTime dipendenteFullTime1 = new DipendenteFullTime("1", 50000, Dipendenti.Dipartimento.PRODUZIONE, 2000);
 
-        DipendentePartTime dipendentePartTime1 = new DipendentePartTime("2", 10000, Dipendenti.Dipartimento.AMMINISTRAZIONE, 20, 15.00);
+        DipendentePartTime dipendentePartTime1 = new DipendentePartTime("2", 10000, Dipendenti.Dipartimento.VENDITE, 20, 15.00);
         ;
-        Dirigente dirigente1 = new Dirigente("3", 1000000, Dipendenti.Dipartimento.VENDITE, 5000.00);
+        Dirigente dirigente1 = new Dirigente("3", 1000000, Dipendenti.Dipartimento.AMMINISTRAZIONE, 5000.00);
 
 
         Dipendenti[] dipendentiArray = {dipendenteFullTime1, dipendentePartTime1, dirigente1,};
